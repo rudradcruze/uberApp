@@ -8,7 +8,7 @@ public interface AuthService {
 
     String login(String email, String password);
 
-    UserDto signUp(SignupDto signupDTO);
+    UserDto signUp(SignupDto signupDto);
 
     DriverDto onBoardNewDriver(Long userId);
 }
